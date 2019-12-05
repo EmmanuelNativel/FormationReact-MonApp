@@ -1,0 +1,18 @@
+.stateH1 {
+    color : chartreuse;
+}
+
+.bordered {
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+input {
+    width: 90%;
+    height: 30px;
+}
+
+.spaceV {
+    margin: 30px;
+}
