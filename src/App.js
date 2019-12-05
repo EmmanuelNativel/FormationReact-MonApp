@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './css/App.css';
 import {PureCompo, PureCompoProps} from './components/PureCompo';
 import StateCompo from './components/StateCompo';
+import CycleDeVieCompo from './components/CycleDeVieCompo';
 
 class App extends React.Component {
   constructor(props){
@@ -42,6 +43,8 @@ class App extends React.Component {
             )
           }
         </div>
+
+        <CycleDeVieCompo/>
 
       </header>
     </div>
